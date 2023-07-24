@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Head;
+  src: url(./font.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.page1 {
+  height: 120vh;
+  width: 100%;
+  background-color: black;
+}
+.page1 h1 {
+  margin-left: 4vh;
+  font-size: 40vw;
+  white-space: nowrap;
+  color: white;
+  text-transform: uppercase;
+  font-family: Head;
+  font-stretch: 260%;
+  font-weight: 999;
+}
+
+.page2 {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+.page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+.loader {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(200, 201, 206);
+  position: fixed;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader h1 {
+  font-size: 150px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 900;
+}
